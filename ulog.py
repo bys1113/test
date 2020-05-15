@@ -1,6 +1,7 @@
 import logging, os
 
 '''
+18:07
 logging模块的四大组件
   组件                           说明
 loggers              提供应用程序代码直接使用的接口
