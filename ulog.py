@@ -1,12 +1,14 @@
 import logging, os
 
 '''
+2020
 logging模块的四大组件
   组件                           说明
 loggers              提供应用程序代码直接使用的接口
 handlers             用于将日志记录发送到指定的目的位置
 filters              提供更细粒度的日志过滤功能，用于决定哪些日志记录将会被输出（其它的日志记录将会被忽略）
 formatters           用于控制日志信息的最终输出格式
+
 '''
 
 _fileLogger = None
@@ -80,6 +82,6 @@ def ulogWarn(msg):
         _fileLogger.warning(msg)
 
 
-# initConsleLogger()
-# initFileLogger(r'E:\log.txt')
-# ulogInfo('HaHaHa')
+initConsleLogger()
+initFileLogger(r'E:\log.txt')
+ulogInfo('HaHaHa')
